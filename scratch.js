@@ -161,7 +161,6 @@ function connectRooms(rooms) {
     })
   } while (unConnectedRooms.length)
   //rooms
-
 }
 
 fillRect(map, 1, 0, 0, config.mapWidth, config.mapHeight)
