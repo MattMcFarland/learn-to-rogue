@@ -7,7 +7,9 @@
     "chance": "^1.0.6",
     "bresenham-js": "^0.0.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "fill-range": "^3.1.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
