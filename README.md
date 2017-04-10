@@ -18,3 +18,9 @@ git clone
 npm install
 node ./scratch.js
 ```
+
+### Output
+
+text like this:
+
+![image](https://cloud.githubusercontent.com/assets/623545/24856495/eba95070-1db2-11e7-8f24-fdf85f5c6cae.png)
