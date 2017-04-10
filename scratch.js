@@ -194,4 +194,4 @@ transposeArray(map).forEach((row, y) => {
   })
 })
 
-str
+cosnole.log(str)
