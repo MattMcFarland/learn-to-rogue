@@ -12,6 +12,14 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "Matt McFarland <contact@mattmcfarland.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MattMcFarland/learn-to-rogue.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MattMcFarland/learn-to-rogue/issues"
+  },
+  "homepage": "https://github.com/MattMcFarland/learn-to-rogue#readme"
 }
