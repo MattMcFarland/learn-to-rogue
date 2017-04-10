@@ -1,0 +1,17 @@
+{
+  "name": "learn-to-rogue",
+  "version": "1.0.0",
+  "description": "super alpha version lol",
+  "main": "scratch.js",
+  "dependencies": {
+    "chance": "^1.0.6",
+    "bresenham-js": "^0.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
