@@ -44,7 +44,6 @@ function fillRect(area, value, x, y, x2, y2) {
   }
 }
 
-
 function digRect(area, value, x, y, x2, y2) {
   for (let _x = x; _x < x2; _x++) {
     for (let _y = y; _y < y2; _y++) {
@@ -56,7 +55,6 @@ function digRect(area, value, x, y, x2, y2) {
     }
   }
 }
-
 
 function createRooms(options) {
   const {
@@ -86,7 +84,6 @@ function createRooms(options) {
   })
   return grid
 }
-
 
 function createCooridoors(rooms) {
   Object.keys(rooms).forEach((roomKey) => {
@@ -167,30 +164,13 @@ fillRect(map, 1, 0, 0, config.mapWidth, config.mapHeight)
 const rooms = createRooms(config)
 connectRooms(rooms)
 createCooridoors(rooms)
-str = ''
-transposeArray(map).forEach((row, y) => {
-  row.forEach((value, x) => {
-    switch (value) {
-      case 0:
-        str += '.'
-        break;
-      case 1:
-        str += 'x'
-        break;
-      case 2:
-        str += '='
-        break;
-      case 3:
-        str += 'A'
-        break;
-      case 4:
-        str += 'B'
-        break;
-    }
-
-
-    if (x === config.mapWidth-1) str += '\n'
+function printMap(map) {
+  str = ''
+  transposeArray(map).forEach((row, y) => {
+    row.forEach((value, x) => {
+      str += value === 1 ? 'x' : '.'
+      if (x === config.mapWidth-1) str += '\n'
+    })
   })
-})
-
-console.log(str)
+  console.log(str)
+}
